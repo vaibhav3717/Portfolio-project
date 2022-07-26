@@ -1,0 +1,195 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Josefin Sans", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.hero {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(226, 235, 201);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.logo {
+  font-size: 36px;
+  color: black;
+  letter-spacing: 1px;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+nav ul a {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+nav ul a:hover {
+  color: white;
+  transition: 0.4s;
+}
+
+span {
+  color: rgb(43, 76, 43);
+}
+
+.text {
+  position: absolute;
+  top: 30%;
+  left: 45%;
+  transform: translateY(-50%);
+}
+
+.text h1 {
+  font-size: 120px;
+  color: black;
+  line-height: 100px;
+  margin-bottom: 20px;
+}
+
+.social {
+  position: fixed;
+  top: 50%;
+  right: 2%;
+  transform: translateY(-50%);
+}
+
+.social ul li {
+  list-style: none;
+  margin: 32px 0px;
+}
+
+.social ul li i {
+  font-size: 18px;
+  color: black;
+}
+
+.social ul li i:hover {
+  transform: scale(1.1) translateY(-6px);
+  transition: 0.2s;
+}
+
+.main-img {
+  height: 200px;
+  width: 100px;
+}
+
+.vector {
+  width: 800px;
+  margin-left: 10px;
+  margin-top: 80px;
+}
+
+.background-image {
+  background-image: url("./RAMA-M60-A-03.759.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+.background-image .content {
+  text-align: center;
+  transform: translateY(30px);
+}
+
+h2 {
+  font-size: 60px;
+}
+
+.content2 {
+  text-align: center;
+  margin-top: 25px;
+}
+
+#about-page {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(226, 235, 201);
+}
+
+.container {
+  display: flex;
+}
+.container img {
+  height: 400px;
+  width: 400px;
+  margin: 150px 0 0 100px;
+}
+.worked {
+  font-size: 1.8rem;
+  margin-left: 15%;
+  margin-top: 10%;
+  margin-right: 5%;
+}
+.about-text h2 {
+  font-size: 7rem;
+  transform: translateY(90px);
+  color: black;
+  line-height: 100px;
+  margin-bottom: 20px;
+  margin-left: 80px;
+}
+.present {
+  margin-top: 8%;
+  text-align: center;
+  font-size: 1.8rem;
+}
+.contact {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(223, 228, 232);
+}
+
+.form {
+  display: flex;
+}
+
+.form input {
+  background-color: rgb(223, 228, 232);
+  border: 1px solid black;
+  font-size: 1.5rem;
+  border: 1px solid black;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 350px;
+}
+.form h2 {
+  font-size: 7rem;
+  margin-left: 30%;
+  margin-top: 10%;
+  margin-right: 5%;
+}
+.form form {
+  font-size: 2rem;
+  margin-top: 20%;
+  margin-left: 10%;
+}
+.form label {
+  font-size: 1.5rem;
+}
+.sub {
+  font-size: 1.5rem;
+  margin-top: 25%;
+  margin-left: 25%;
+  color: black;
+  background-color: rgb(223, 228, 232);
+  padding: 10px;
+}
